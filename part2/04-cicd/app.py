@@ -20,6 +20,7 @@ root_password = 'password'
 def main():
     st.title("Mask Classification Model - Docker Build Deploy again")
 
+
     with open("config.yaml") as f:
         config = yaml.load(f, Loader=yaml.FullLoader)
     
